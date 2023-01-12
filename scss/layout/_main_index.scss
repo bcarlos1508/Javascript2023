@@ -1,0 +1,23 @@
+.section1
+{
+    background-image: url("../assets/img/inicio.png");
+    height: 100vh;
+    background-position:top;
+    @include propiedades-grid(1,3);
+}
+.texto-encima
+{
+    @include texto-encima(1,1,0,6rem,black,center);
+}
+.cont-img
+{
+    display: flex;
+    justify-content: center;
+    & img
+    {
+        width:20%;
+        height: 100%;
+        border-radius: 15px;
+        margin: 1%;
+    }
+}   

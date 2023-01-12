@@ -1,0 +1,23 @@
+.section2
+{
+    background-image: url("../assets/img/quienSoy.png");   
+    height: 100vh;
+    background-position:top;
+    @include propiedades-grid(6,3);
+}
+.texto-encima-quien
+{
+    @include texto-encima(6,1,0,8rem,black,center);
+}
+.texto-encima-quien-2
+{
+    @include texto-encima(1/4,4,1rem,4rem,black,left);
+}
+.textoQuienSoy
+{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 1rem;
+    margin: 5rem;
+}   

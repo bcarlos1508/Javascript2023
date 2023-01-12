@@ -1,0 +1,43 @@
+.section5
+{
+    background-image: url("../assets/img/contacto.jpeg");
+    height: 100vh;
+    background-position:top;
+    @include propiedades-grid(6,3);
+}
+.texto-encima-contacto
+{
+    @include texto-encima(1/2,1,2rem,8rem,white,right);
+}
+.contacto
+{
+    display: flex;
+    text-align: center;
+    width: 50%;
+    font-size: 1.5em;
+    margin: 15px auto;
+}
+.maps
+{
+    width: 1000px;
+    height: 450px;    
+}
+.imput-form
+{
+    width: 60%;
+    height:35px;
+    margin:15px auto;
+    text-align: center;
+    border-color: #ffecf4;
+    background-color: white;
+    font-size: 1em;
+}
+textarea
+{ 
+    width: 60%;
+    height: 30px;
+    margin:15px auto;
+    border-color: blueviolet;
+    background-color: white;
+    font-size: 1em;
+}

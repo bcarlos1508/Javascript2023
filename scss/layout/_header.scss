@@ -1,0 +1,36 @@
+header img
+{
+    height: 100px;
+    object-fit: contain;
+    width: 100%;
+}
+nav
+{
+    width: 100%;
+}
+.header
+{
+    background-color: #ddc8ff;
+    display: flex;
+    width: 100%;
+    font-size: 1.2rem;
+    align-items: center;
+    text-align: center;
+}
+.navBar
+{
+    display: flex;
+    justify-content:flex-end;
+    column-gap: 5rem;
+    font-size: 3.6rem;
+    padding-right: 3rem;
+    align-items: center;
+    & li
+    {
+        list-style: none;
+    }
+    & li a
+    {
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,23 @@
+.section4
+{
+    background-image: url("../assets/img/trabajosRealizados.jpeg");
+    height: 100vh;
+    background-position:top;
+    @include propiedades-grid(3,3);
+}
+.texto-encima-trabajos
+{
+    @include texto-encima(3,1,0,8rem,white,right);
+    padding-right: 2rem;
+}
+.texto-encima-trabajos-2
+{
+    @include texto-encima(1,4,2rem,4rem,white,left);
+}
+.galeria img
+{
+    width:30%;
+    height: 100%;
+    border-radius: 15px;
+    margin: 1%;
+}

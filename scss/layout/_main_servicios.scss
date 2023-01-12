@@ -1,0 +1,57 @@
+.section3
+{
+    background-image: url("../assets/img/servicios.jpeg");
+    height: 100vh;
+    background-position:top;
+    @include propiedades-grid(6,3);
+}
+.texto-encima-serv
+{
+    @include texto-encima(6,1,0,8rem,white,center);
+}
+.texto-encima-serv-2
+{
+    @include texto-encima(1/3,3,2rem,4rem,white,left);
+}
+.serviciosDer
+{
+    display: flex;
+    text-align: right;
+    align-items: center;
+    font-size: 35px;
+    margin: 4%;
+    border-style:solid;
+    border-color: black;
+    & ul li
+    {
+        list-style: none;
+    }
+}    
+.imgSerDer
+{
+    width:17%;
+    height: 200px;
+    border-radius: 200px;
+    margin: 2%;
+}
+.serviciosIzq
+{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-size: 35px;
+    margin: 4%;
+    border-style:solid;
+    border-color: black;
+    & ul li
+    {
+        list-style: none;
+    }
+}    
+.imgSerIzq
+{
+    width:17%;
+    height: 200px;
+    border-radius: 200px;
+    margin:2%;
+}
