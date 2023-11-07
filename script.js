@@ -133,6 +133,7 @@ function cargaPerros()
     }
 }
 
+
 function mostrarMascotas(array)
 {
     for (let i=0;i<=array.length;i++)
